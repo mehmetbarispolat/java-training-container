@@ -12,7 +12,11 @@
 			"installGradle": "false"
 		},
 		"ghcr.io/devcontainers/features/sshd:1": {}
-	}
+	},
+	"runArgs": [
+		"--name",
+		"java-training-container"
+	]
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
